@@ -1,18 +1,33 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+<<<<<<< HEAD
   <component name="ChangeListManager">
     <list default="true" id="7c94704b-5052-4b9d-975e-05ca5323e325" name="Changes" comment="">
       <change afterPath="$PROJECT_DIR$/src/Demo.java" afterDir="false" />
     </list>
+=======
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="3eee6f76-3422-4c6f-af8f-702b6defdf01" name="Changes" comment="" />
+>>>>>>> ff93a6f (initial commit)
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
+<<<<<<< HEAD
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="ProjectId" id="2CgdbvCE9BI8pzlnORC1K60EdGG" />
+=======
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
+  </component>
+  <component name="ProjectId" id="2DJQVhV71BKuoEATOSblhJttwI3" />
+>>>>>>> ff93a6f (initial commit)
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
@@ -21,20 +36,32 @@
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
     "RunOnceActivity.OpenProjectViewOnStart": "true",
+<<<<<<< HEAD
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "project.structure.last.edited": "Modules",
     "project.structure.proportion": "0.0",
     "project.structure.side.proportion": "0.0"
+=======
+    "RunOnceActivity.ShowReadmeOnStart": "true"
+>>>>>>> ff93a6f (initial commit)
   }
 }]]></component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
+<<<<<<< HEAD
       <changelist id="7c94704b-5052-4b9d-975e-05ca5323e325" name="Changes" comment="" />
       <created>1659228239442</created>
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1659228239442</updated>
+=======
+      <changelist id="3eee6f76-3422-4c6f-af8f-702b6defdf01" name="Changes" comment="" />
+      <created>1660414733515</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1660414733515</updated>
+>>>>>>> ff93a6f (initial commit)
     </task>
     <servers />
   </component>

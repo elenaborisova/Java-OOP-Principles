@@ -4,11 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="38b0437d-2389-4ce6-81ee-a1073a3ba9fd" name="Changes" comment="">
+    <list default="true" id="38b0437d-2389-4ce6-81ee-a1073a3ba9fd" name="Changes" comment="implement Controller class">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/christmasRaces/core/ControllerImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/christmasRaces/core/ControllerImpl.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/christmasRaces/core/EngineImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/christmasRaces/core/EngineImpl.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/christmasRaces/entities/drivers/DriverImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/christmasRaces/entities/drivers/DriverImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -40,39 +38,113 @@
   <component name="ProjectViewState">
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
-    &quot;last_opened_file_path&quot;: &quot;/Users/elenaborisova/Documents/GitHub/Java-OOP-Principles/src/main/java&quot;,
-    &quot;project.structure.last.edited&quot;: &quot;Modules&quot;,
-    &quot;project.structure.proportion&quot;: &quot;0.0&quot;,
-    &quot;project.structure.side.proportion&quot;: &quot;0.0&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "last_opened_file_path": "/Users/elenaborisova/Documents/GitHub/Java-OOP-Principles/src/main/java",
+    "project.structure.last.edited": "Modules",
+    "project.structure.proportion": "0.15",
+    "project.structure.side.proportion": "0.2"
   }
-}</component>
+}]]></component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/src/main/java" />
     </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src/test/java" />
+      <recent name="$PROJECT_DIR$/src/main/java" />
+    </key>
   </component>
-  <component name="RunManager">
-    <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="christmasRaces.Main" />
+  <component name="RunManager" selected="JUnit.GarageTests.testFindAllCarsByBrandShouldReturnCorrectCarsList">
+    <configuration name="GarageTests" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="Java-OOP-Principles" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="christmasRaces.*" />
+          <option name="PATTERN" value="garage.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
+      <option name="PACKAGE_NAME" value="garage" />
+      <option name="MAIN_CLASS_NAME" value="garage.GarageTests" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="GarageTests.testAddCarWithoutCarShouldThrow" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="Java-OOP-Principles" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="garage.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="garage" />
+      <option name="MAIN_CLASS_NAME" value="garage.GarageTests" />
+      <option name="METHOD_NAME" value="testAddCarWithoutCarShouldThrow" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="GarageTests.testFindAllCarsByBrandShouldReturnCorrectCarsList" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="Java-OOP-Principles" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="garage.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="garage" />
+      <option name="MAIN_CLASS_NAME" value="garage.GarageTests" />
+      <option name="METHOD_NAME" value="testFindAllCarsByBrandShouldReturnCorrectCarsList" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="GarageTests.testFindAllCarsWithMaxSpeedAboveShouldReturnCorrectCars" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="Java-OOP-Principles" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="garage.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="garage" />
+      <option name="MAIN_CLASS_NAME" value="garage.GarageTests" />
+      <option name="METHOD_NAME" value="testFindAllCarsWithMaxSpeedAboveShouldReturnCorrectCars" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="GarageTests.testGetTheMostExpensiveCarShouldReturnCorrectCar" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="Java-OOP-Principles" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="garage.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="garage" />
+      <option name="MAIN_CLASS_NAME" value="garage.GarageTests" />
+      <option name="METHOD_NAME" value="testGetTheMostExpensiveCarShouldReturnCorrectCar" />
+      <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.Main" />
+        <item itemvalue="JUnit.GarageTests.testFindAllCarsByBrandShouldReturnCorrectCarsList" />
+        <item itemvalue="JUnit.GarageTests.testGetTheMostExpensiveCarShouldReturnCorrectCar" />
+        <item itemvalue="JUnit.GarageTests.testFindAllCarsWithMaxSpeedAboveShouldReturnCorrectCars" />
+        <item itemvalue="JUnit.GarageTests" />
+        <item itemvalue="JUnit.GarageTests.testAddCarWithoutCarShouldThrow" />
       </list>
     </recent_temporary>
   </component>
@@ -85,6 +157,14 @@
       <option name="presentableId" value="Default" />
       <updated>1660418744120</updated>
     </task>
+    <task id="LOCAL-00001" summary="implement Controller class">
+      <created>1660495881075</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1660495881075</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -97,5 +177,9 @@
         </entry>
       </map>
     </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="implement Controller class" />
+    <option name="LAST_COMMIT_MESSAGE" value="implement Controller class" />
   </component>
 </project>

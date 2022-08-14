@@ -4,7 +4,7 @@ package christmasRaces.entities.drivers;
 import christmasRaces.common.ExceptionMessages;
 import christmasRaces.entities.cars.Car;
 
-public class DriverImpl implements Driver {
+public class DriverImpl implements Driver{
 
     private String name;
     private Car car;
@@ -61,4 +61,5 @@ public class DriverImpl implements Driver {
     public void winRace() {
         numberOfWins++;
     }
+
 }

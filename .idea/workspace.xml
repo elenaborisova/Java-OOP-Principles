@@ -4,9 +4,18 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="38b0437d-2389-4ce6-81ee-a1073a3ba9fd" name="Changes" comment="implement Controller class">
+    <list default="true" id="38b0437d-2389-4ce6-81ee-a1073a3ba9fd" name="Changes" comment="add ViceCity project skeleton">
+      <change afterPath="$PROJECT_DIR$/src/main/java/viceCity/core/ControllerImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/viceCity/models/guns/BaseGun.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/viceCity/models/guns/Pistol.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/viceCity/models/guns/Rifle.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/viceCity/models/neighbourhood/GangNeighbourhood.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/viceCity/models/players/BasePlayer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/viceCity/models/players/CivilPlayer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/viceCity/models/players/MainPlayer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/viceCity/repositories/GunRepository.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/viceCity/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/viceCity/Main.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -54,8 +63,8 @@
       <recent name="$PROJECT_DIR$/src/main/java" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
-      <recent name="$PROJECT_DIR$/src/test/java" />
       <recent name="$PROJECT_DIR$/src/main/java" />
+      <recent name="$PROJECT_DIR$/src/test/java" />
     </key>
   </component>
   <component name="RunManager" selected="JUnit.GarageTests.testFindAllCarsByBrandShouldReturnCorrectCarsList">
@@ -164,7 +173,28 @@
       <option name="project" value="LOCAL" />
       <updated>1660495881075</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="write unit tests for Garage class">
+      <created>1660503296883</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1660503296883</updated>
+    </task>
+    <task id="LOCAL-00003" summary="write unit tests for Garage class">
+      <created>1660503367407</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1660503367407</updated>
+    </task>
+    <task id="LOCAL-00004" summary="add ViceCity project skeleton">
+      <created>1660503589231</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1660503589231</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -180,6 +210,8 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="implement Controller class" />
-    <option name="LAST_COMMIT_MESSAGE" value="implement Controller class" />
+    <MESSAGE value="write unit tests for Garage class" />
+    <MESSAGE value="add ViceCity project skeleton" />
+    <option name="LAST_COMMIT_MESSAGE" value="add ViceCity project skeleton" />
   </component>
 </project>
